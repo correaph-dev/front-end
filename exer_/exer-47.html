@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exer-47</title>
+  </head>
+  <body>
+    <h1>Formulário </h1>
+    <form>
+      <form action="/seu-script-de-destino" method="POST">
+        <label for="nome">Nome:</label>
+        <input
+          type="text"
+          id="nome"
+          name="nome"
+          placeholder="Digite seu nome"
+          required
+        />
+
+        <label for="senha">Senha:</label>
+        <input
+          type="password"
+          id="senha"
+          name="senha"
+          placeholder="Digite sua senha"
+          required
+        />
+
+        <button type="submit">Enviar</button>
+        <p>Selecione seu gênero:</p>
+
+        <input type="radio" id="masculino" name="genero" value="masculino" />
+        <label for="masculino">Masculino</label><br />
+
+        <input type="radio" id="feminino" name="genero" value="feminino" />
+        <label for="feminino">Feminino</label><br />
+        <p>Selecione seus interesses:</p>
+
+        <div>
+          <input
+            type="checkbox"
+            id="esportes"
+            name="interesse"
+            value="esportes"
+          />
+          <label for="esportes">Esportes</label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="musica" name="interesse" value="musica" />
+          <label for="musica">Música</label>
+        </div>
+
+        <div>
+          <input
+            type="checkbox"
+            id="leitura"
+            name="interesse"
+            value="leitura"
+          />
+          <label for="leitura">Leitura</label>
+        </div>
+        <label for="estados">Escolha um estado:</label>
+<select id="estados" name="estados">
+    <option value="AC">Acre</option>
+    <option value="AL">Alagoas</option>
+    <option value="AP">Amapá</option>
+    <option value="AM">Amazonas</option>
+    <option value="BA">Bahia</option>
+    <option value="CE">Ceará</option>
+    <option value="DF">Distrito Federal</option>
+    <option value="ES">Espírito Santo</option>
+    <option value="GO">Goiás</option>
+    <option value="MA">Maranhão</option>
+    <option value="MT">Mato Grosso</option>
+    <option value="MS">Mato Grosso do Sul</option>
+    <option value="MG">Minas Gerais</option>
+    <option value="PA">Pará</option>
+    <option value="PB">Paraíba</option>
+    <option value="PR">Paraná</option>
+    <option value="PE">Pernambuco</option>
+    <option value="PI">Piauí</option>
+    <option value="RJ">Rio de Janeiro</option>
+    <option value="RN">Rio Grande do Norte</option>
+    <option value="RS">Rio Grande do Sul</option>
+    <option value="RO">Rondônia</option>
+    <option value="RR">Roraima</option>
+    <option value="SC">Santa Catarina</option>
+    <option value="SP">São Paulo</option>
+    <option value="SE">Sergipe</option>
+    <option value="TO">Tocantins</option>
+</select>
+<label for="mensagem">Mensagem:</label>
+<textarea id="mensagem" name="mensagem" rows="5" cols="33" placeholder="Digite sua mensagem aqui..."></textarea>
+
+
+      </form>
+    </form>
+  </body>
+</html>
