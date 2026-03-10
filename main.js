@@ -15,9 +15,9 @@ const frase = `Texto: ${meu_texto}`
 let valor_1 = 56;
 let valor_2 = 6;
 
-const soma = valor_1; + valor_2;
-let subtracao = valor_1; - valor_2;
-const multiplicacao = valor_1; * valor_2;
+const soma = valor_1 + valor_2;
+let subtracao = valor_1 - valor_2;
+const multiplicacao = valor_1 * valor_2;
 console.log(soma)
 console.log(subtracao)
 console.log(multiplicacao)
